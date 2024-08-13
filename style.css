@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-btn .btn {
+  background-color: #0E1734;
+  border-radius: 4px;
+  padding: 16px, 32px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 156px;
+  height: 51px;
+  justify-content: center;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header-links ul {
+  display: flex;
+  color: white;
+  background-color: white;
+  font-size: 16px;
+  gap: 20px;
+}
+.nature {
+  display: flex;
+  justify-content: space-between;
+}
+.nature-item h2 {
+  font-size: 60px;
+}
+.nature-item-info h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  size: 48px;
+  line-height: 32px;
+  color: #192252;
+}
+.nature-item-about button {
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nature-item-about button {
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nature .about mark {
+  font-size: 32px;
+}
+.nature-item-img {
+  display: flex;
+  justify-content: end;
+  gap: 35px;
+}
+.nature-item-img ww {
+  padding-top: 100px;
+}/*# sourceMappingURL=style.css.map */
